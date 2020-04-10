@@ -1,0 +1,22 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+<!-- Blog Post -->
+<div class="card mb-4">
+    <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+    <div class="card-body">
+        <h2 class="card-title">{{post.title}}</h2>
+        {% if post.summary %}}
+        <p class="card-text">{{post.summary}}</p>
+        {% else %}
+        <p class="card-text">No summary available</p>
+        {% endif %}
+        <a href="{{site.baseurl}}{{post.url}}" class="btn btn-primary">Read More &rarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+        {% assign author = site.authors[post.author] %}
+        Posted on {{ post.date | date_to_string }}
+        {%if post.author != null%}
+        by <a href="{{author.web}}">{{author.name}}</a>
+        {%endif%}
+    </div>
+</div>

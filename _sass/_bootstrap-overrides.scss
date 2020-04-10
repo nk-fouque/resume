@@ -1,0 +1,30 @@
+$theme-colors: (
+        "primary": $primary,
+);
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.badge-primary {
+
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+.social-icons .list-inline-item i:hover{
+
+  color: darken($primary,15%)
+}
+
