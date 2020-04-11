@@ -3,7 +3,8 @@
 
 
         <h2 class="mb-5">School Projects Experience</h2>
-        {% for project in site.posts %}
+        {% assign sorted = (site.experiences | sort: 'enddate') | reverse %}
+        {% for project in sorted %}
         {% if project.type == "school-main" %}
         {% include resume/project.html %}
         <hr>
@@ -11,7 +12,7 @@
         {% endfor %}
 
         <div class="collapse multi-collapse-read-more-work">
-            {% for project in site.posts %}
+            {% for project in sorted %}
             {% if project.type == "school-more" %}
             {% include resume/project.html %}
             <hr>

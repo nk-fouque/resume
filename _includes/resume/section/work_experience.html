@@ -1,7 +1,8 @@
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
     <div class="w-100">
         <h2 class="mb-5">Work Experience</h2>
-        {% for job in site.posts %}
+        {% assign sorted = (site.experiences | sort: 'enddate') | reverse %}
+        {% for job in sorted %}
         {% if job.type == "job-main" %}
         {% include resume/job.html %}
         <hr>
@@ -10,7 +11,7 @@
 
         <!--<div class="collapse multi-collapse-read-more-work">-->
 
-        <!--    {% for job in site.posts %}-->
+        <!--    {% for job in sorted %}-->
         <!--    {% if job.type == "job-more" %}-->
         <!--    {% include resume/project.html %}-->
         <!--    <hr>-->
