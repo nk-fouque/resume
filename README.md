@@ -63,6 +63,7 @@ The title of a commit follows this pattern : \<type>(\<scope>): \<subject>
 - fix: A bug fix
 - refactor: Modification of the code without adding features nor bugs (rename, white-space, ...)
 - style: CSS or layout modifications or debug
+- serve: Built the site using serve command, this type of commit doesn't need a subject, normally this should only make modifications in ```docs``` 
 
 ## Scope
 - General
