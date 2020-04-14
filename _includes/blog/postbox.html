@@ -1,11 +1,14 @@
 <!-- begin post -->
 {% assign author = site.authors[post.author] %}
 <!-- Blog Post -->
-<div class="card mb-4">
-    <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+<div class="card mb-4 w-100">
+    {% if post.preview %}
+    <img class="card-img-top post-preview img-fluid" src="{{post.preview}}" alt="Card image cap">
+    {% endif %}
+
     <div class="card-body">
         <h2 class="card-title">{{post.title}}</h2>
-        {% if post.summary %}}
+        {% if post.summary %}
         <p class="card-text">{{post.summary}}</p>
         {% else %}
         <p class="card-text">No summary available</p>

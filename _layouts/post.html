@@ -2,25 +2,29 @@
 layout: blog
 ---
 
-    <!-- Title -->
-    <h1 class="mt-4">{{page.title}}</h1>
+<!-- Title -->
+<h1 class="mt-4">{{page.title}}</h1>
 
-    <!-- Author -->
-    {% assign author = site.authors[page.author] %}
-    <p class="lead">
-        {%if page.author != null%}
-                by <a href="{{author.web}}">{{author.name}}</a>
-        {%else%}
-            anonymous</a>
-        {%endif%}
-    </p>
+<!-- Author -->
+{% assign author = site.authors[page.author] %}
+<p class="lead">
+    {%if page.author != null%}
+            by <a href="{{author.web}}">{{author.name}}</a>
+    {%else%}
+        anonymous</a>
+    {%endif%}
+</p>
 
-    <hr>
+<hr>
 
-    <!-- Date/Time -->
-    <p>Posted on {{page.date | date: "%a, %b %d, %y"}}</p>
+<img class="card-img-top post-preview w-100" src="{{page.preview}}" alt="Card image cap">
 
-    <hr>
+<hr>
 
-    {{content}}
+<!-- Date/Time -->
+<p>Posted on {{page.date | date: "%a, %b %d, %y"}}</p>
+
+<hr>
+
+{{content}}
 
