@@ -2,7 +2,6 @@
 type: school-main
 name: TALIESIN
 context: 4th-Year Group Project
-summary: Rework in microservices of an application to build training databases for Handwritten Text Recognition
 startdate: 2019-09-19
 enddate: 2020-05-15
 concepts:
@@ -20,3 +19,4 @@ concepts:
     color: secondary
     
 ---
+Rework in microservices of an application to build training databases for Handwritten Text Recognition

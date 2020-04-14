@@ -2,7 +2,6 @@
 type: school-main
 name: Geolocalized Air-Quality sensor
 context: 4th-Year IOT Option
-summary: Used an M5Stack and several sensors to collect data about the air quality, store it in a database and analyze it with Grafana.
 startdate: 2019-10-01
 enddate: 2019-12-18
 repo: https://github.com/Inkaru/IOT_air_quality
@@ -16,5 +15,6 @@ concepts:
     color: secondary
   - name: Grafana
     color: secondary
-
 ---
+
+Used an M5Stack and several sensors to collect data about the air quality, store it in a database and analyze it with Grafana.
