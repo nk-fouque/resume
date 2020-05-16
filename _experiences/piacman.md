@@ -1,5 +1,5 @@
 ---
-type: school-main
+type: school-more
 name: Pacman AI
 context: 3rd-Year AI Option
 startdate: 2019-03-05
