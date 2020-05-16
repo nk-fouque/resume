@@ -6,7 +6,7 @@
         {% assign sorted = (site.experiences | sort: 'enddate') | reverse %}
         {% for project in sorted %}
         {% if project.type == "school-main" %}
-        {% include resume/project.html %}
+        {% include project.html %}
         <hr>
         {% endif %}
         {% endfor %}
@@ -14,7 +14,7 @@
         <div class="collapse multi-collapse-read-more-work">
             {% for project in sorted %}
             {% if project.type == "school-more" %}
-            {% include resume/project.html %}
+            {% include project.html %}
             <hr>
             {% endif %}
             {% endfor %}

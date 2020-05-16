@@ -4,7 +4,7 @@
         {% assign sorted = (site.experiences | sort: 'enddate') | reverse %}
         {% for job in sorted %}
         {% if job.type == "job-main" %}
-        {% include resume/job.html %}
+        {% include job.html %}
         <hr>
         {% endif %}
         {% endfor %}
@@ -13,7 +13,7 @@
 
         <!--    {% for job in sorted %}-->
         <!--    {% if job.type == "job-more" %}-->
-        <!--    {% include resume/project.html %}-->
+        <!--    {% include project.html %}-->
         <!--    <hr>-->
         <!--    {% endif %}-->
         <!--    {% endfor %}-->

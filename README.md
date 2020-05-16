@@ -28,14 +28,6 @@ I'm open to any type of suggestions !
 
 ## Resume
 Started as a template [Resume](https://github.com/BlackrockDigital/startbootstrap-resume) from Start Bootstrap and added more and more of personal content
-
-## Jekyll
-Migrated to Jekyll in April 2020 to add blog functionalities
-Blog Jekyll theme made by myself by salvaging code pieces from 
-- [Blog Post](https://github.com/BlackrockDigital/startbootstrap-blog-post) Template from StartBootstrap
-- [Blog Home Page](https://github.com/BlackrockDigital/startbootstrap-blog-home) Template from StartBootstrap
-- [Mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll/) theme from bootstrapstarter.com
-
 ## Art
 - Profile picture by [Kiri](http://www.kiri-illustratrice.com/), don't hesitate to check her work she's awesome and also a close friend of mine
 - Logos for INSA associations obtained from internal resources meant for external communication
@@ -67,6 +59,5 @@ The title of a commit follows this pattern : \<type>(\<scope>): \<subject>
 
 ## Scope
 - General
-- Blog
 - Resume
 - Jekyll
