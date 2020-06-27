@@ -26,8 +26,6 @@
     - name: js
       icon: fontawesome
       class: fab fa-js
-- name: Programming Languages Currently being learned
-  content:
     - name: ng
       icon: fontawesome
       class: fab fa-angular
@@ -38,14 +36,14 @@
       size: 40
 - name: Cloud Computing Technologies
   content:
-    - name: docker
-      icon: fontawesome
-      class: fab fa-docker
     - name: k8s
       icon: img
       grey: k8s_grey.svg
       color: k8s_color.svg
-      size: 60
+      size: 50
+    - name: docker
+      icon: fontawesome
+      class: fab fa-docker
     - name: aws
       icon: fontawesome
       class: fab fa-aws
