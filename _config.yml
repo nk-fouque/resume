@@ -15,7 +15,7 @@
 # Site settings
 name: "Nick's Rants"
 title: "Nick's Rants"
-description: "My interactive resumes"
+description: "My interactive resume"
 logo: 'assets/images/logo.png'
 favicon: 'assets/img/profile.png'
 baseurl: '/resume'

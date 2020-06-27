@@ -27,6 +27,13 @@
 
     <!-- Plugin JavaScript -->
     <script src="/resume/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                trigger: 'hover'
+            });
+        });
+    </script>
 
 
 </head>
@@ -655,150 +662,211 @@ The Goal was to use Infrared line detectors, an Ultrasound ditance detector and 
     <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        
-        <div class="subheading mb-3">Main Programming Languages</div>
-        <ul class="list-inline dev-icons">
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-java"></i>
-            </li>
-            
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-python"></i>
-            </li>
-            
-            
-            
-            
-            
-            <img src='/resume/assets/img/logos/Go-Logo_Grey.svg'
-                 onmouseover="this.src='/resume/assets/img/logos/Go-Logo_Blue.svg';"
-                 onmouseout="this.src='/resume/assets/img/logos/Go-Logo_Grey.svg';"
-                 width="65"/>
-            
-            
-        </ul>
-        
-        <div class="subheading mb-3">Other Programming Languages</div>
-        <ul class="list-inline dev-icons">
-            
-            
-            
-            <img src='/resume/assets/img/logos/bash-greyscale.svg'
-                 onmouseover="this.src='/resume/assets/img/logos/bash-color.svg';"
-                 onmouseout="this.src='/resume/assets/img/logos/bash-greyscale.svg';"
-                 width="50"/>
-            
-            
-            
-            
-            <img src='/resume/assets/img/logos/ruby-greyscale.svg'
-                 onmouseover="this.src='/resume/assets/img/logos/ruby-color.svg';"
-                 onmouseout="this.src='/resume/assets/img/logos/ruby-greyscale.svg';"
-                 width="40"/>
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-js"></i>
-            </li>
-            
-            
-            
-        </ul>
-        
-        <div class="subheading mb-3">Programming Languages Currently being learned</div>
-        <ul class="list-inline dev-icons">
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-angular"></i>
-            </li>
-            
-            
-            
-            
-            
-            <img src='/resume/assets/img/logos/cpp-greyscale.svg'
-                 onmouseover="this.src='/resume/assets/img/logos/cpp-color.svg';"
-                 onmouseout="this.src='/resume/assets/img/logos/cpp-greyscale.svg';"
-                 width="40"/>
-            
-            
-        </ul>
-        
-        <div class="subheading mb-3">Cloud Computing Technologies</div>
-        <ul class="list-inline dev-icons">
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-docker"></i>
-            </li>
-            
-            
-            
-            
-            
-            <img src='/resume/assets/img/logos/k8s_grey.svg'
-                 onmouseover="this.src='/resume/assets/img/logos/k8s_color.svg';"
-                 onmouseout="this.src='/resume/assets/img/logos/k8s_grey.svg';"
-                 width="60"/>
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-aws"></i>
-            </li>
-            
-            
-            
-        </ul>
-        
-        <div class="subheading mb-3">Most used Tools</div>
-        <ul class="list-inline dev-icons">
-            
-            
-            
-            <img src='/resume/assets/img/logos/jetbrains-greyscale.svg'
-                 onmouseover="this.src='/resume/assets/img/logos/jetbrains.svg';"
-                 onmouseout="this.src='/resume/assets/img/logos/jetbrains-greyscale.svg';"
-                 width="50"/>
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fas fa-atom"></i>
-            </li>
-            
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-slack"></i>
-            </li>
-            
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-trello"></i>
-            </li>
-            
-            
-            
-            
-            <li class="list-inline-item">
-                <i class="fab fa-google-drive"></i>
-            </li>
-            
-            
-            
-        </ul>
-        
+        <div class="resume-item d-flex flex-column flex-md-row mb-2">
+            <div class="resume-content col-6">
+                <h3>Technical Skills</h3>
+                
+                <div class="subheading mb-1">Main Programming Languages</div>
+                <ul class="list-inline dev-icons">
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-java"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-python"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <img src='/resume/assets/img/logos/Go-Logo_Grey.svg'
+                         onmouseover="this.src='/resume/assets/img/logos/Go-Logo_Blue.svg';"
+                         onmouseout="this.src='/resume/assets/img/logos/Go-Logo_Grey.svg';"
+                         width="65"/>
+                    
+                    
+                </ul>
+                
+                <div class="subheading mb-1">Other Programming Languages</div>
+                <ul class="list-inline dev-icons">
+                    
+                    
+                    
+                    <img src='/resume/assets/img/logos/bash-greyscale.svg'
+                         onmouseover="this.src='/resume/assets/img/logos/bash-color.svg';"
+                         onmouseout="this.src='/resume/assets/img/logos/bash-greyscale.svg';"
+                         width="50"/>
+                    
+                    
+                    
+                    
+                    <img src='/resume/assets/img/logos/ruby-greyscale.svg'
+                         onmouseover="this.src='/resume/assets/img/logos/ruby-color.svg';"
+                         onmouseout="this.src='/resume/assets/img/logos/ruby-greyscale.svg';"
+                         width="40"/>
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-js"></i>
+                    </li>
+                    
+                    
+                    
+                </ul>
+                
+                <div class="subheading mb-1">Programming Languages Currently being learned</div>
+                <ul class="list-inline dev-icons">
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-angular"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <img src='/resume/assets/img/logos/cpp-greyscale.svg'
+                         onmouseover="this.src='/resume/assets/img/logos/cpp-color.svg';"
+                         onmouseout="this.src='/resume/assets/img/logos/cpp-greyscale.svg';"
+                         width="40"/>
+                    
+                    
+                </ul>
+                
+                <div class="subheading mb-1">Cloud Computing Technologies</div>
+                <ul class="list-inline dev-icons">
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-docker"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <img src='/resume/assets/img/logos/k8s_grey.svg'
+                         onmouseover="this.src='/resume/assets/img/logos/k8s_color.svg';"
+                         onmouseout="this.src='/resume/assets/img/logos/k8s_grey.svg';"
+                         width="60"/>
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-aws"></i>
+                    </li>
+                    
+                    
+                    
+                </ul>
+                
+                <div class="subheading mb-1">Most used Tools</div>
+                <ul class="list-inline dev-icons">
+                    
+                    
+                    
+                    <img src='/resume/assets/img/logos/jetbrains-greyscale.svg'
+                         onmouseover="this.src='/resume/assets/img/logos/jetbrains.svg';"
+                         onmouseout="this.src='/resume/assets/img/logos/jetbrains-greyscale.svg';"
+                         width="50"/>
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fas fa-atom"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-slack"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-trello"></i>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <i class="fab fa-google-drive"></i>
+                    </li>
+                    
+                    
+                    
+                </ul>
+                
+            </div>
+            <div class="resume-content col-6">
+                <h3>Other Skills</h3>
+
+                <div class="subheading mb-1">Languages</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item" data-toggle="popover" data-placement="right"
+                        title="Fluent" data-content="Mother Tongue">
+                        <img class="flag" src="https://cdn.countryflags.com/thumbs/france/flag-800.png" width="60"/>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                    </li>
+                    <li class="list-inline-item" data-toggle="popover" data-placement="right"
+                        title="Fluent">
+                        <img class="flag" src="https://cdn.countryflags.com/thumbs/united-kingdom/flag-800.png"
+                             width="60"/>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                    </li>
+                    <li class="list-inline-item" data-toggle="popover" data-placement="right"
+                        title="Conversational">
+                        <img class="flag" src="https://cdn.countryflags.com/thumbs/japan/flag-800.png" width="60"/>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star-half-alt text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                    </li>
+                    <li class="list-inline-item" data-toggle="popover" data-placement="right"
+                        data-content="Studied 8 years but haven't spoken for 3 years so it might be very rusty"
+                        title="Conversational/Professional">
+                        <img class="flag" src="https://cdn.countryflags.com/thumbs/germany/flag-800.png" width="60"/>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-danger"></i>
+                        <i class="far fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                    </li>
+                    <li class="list-inline-item" data-toggle="popover" data-placement="right"
+                        data-content="Currently learning" title="Basics">
+                        <img class="flag" src="https://cdn.countryflags.com/thumbs/finland/flag-800.png" width="60"/>
+                        <i class="fas fa-star-half-alt text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
 
     </div>
 </section>
