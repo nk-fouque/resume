@@ -59,5 +59,9 @@ The title of a commit follows this pattern : \<type>(\<scope>): \<subject>
 
 ## Scope
 - General
-- Resume
 - Jekyll
+- About
+- Projects
+- Education
+- Interests
+- Skills

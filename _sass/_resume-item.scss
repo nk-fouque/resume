@@ -44,11 +44,22 @@ section.resume-section {
   background: $primary;
 }
 
-.btn-read-more[aria-expanded="false"]:before
+.btn-read-more[aria-expanded="false"].projects:before
 {
   content:'More Projects' ;
 }
-.btn-read-more[aria-expanded="true"]:before
+
+.btn-read-more[aria-expanded="true"].projects:before
 {
   content:'Less Projects' ;
+}
+
+.btn-read-more[aria-expanded="false"].highschool:before
+{
+  content:'High School' ;
+}
+
+.btn-read-more[aria-expanded="true"].highschool:before
+{
+  content:'Hide' ;
 }
