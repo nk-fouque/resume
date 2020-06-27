@@ -23,6 +23,6 @@ concepts:
     color: secondary
     
 ---
-We had to submit two systems for slot tagging.
-One of the approaches had to be made with [Wapiti](https://wapiti.limsi.fr/), a system to easily create CRF, 
-we took an orignal turn on this one by elaborating a genetic algorithm in python to select the best automatically generated rules.
+We had to submit two systems for slot tagging.  
+Our first system was a Bidirectional Gated Recurrent Unit (BiGRU) 
+and the second one was an original turn on the CRF approach wrapped in a genetic algorithm. 
