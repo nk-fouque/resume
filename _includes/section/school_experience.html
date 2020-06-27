@@ -1,8 +1,8 @@
-<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="school">
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center align-items-center" id="school">
     <div class="w-100">
 
 
-        <h2 class="mb-5">School Projects Experience</h2>
+        <h2 class="mb-3">School Projects Experience</h2>
         {% assign sorted = (site.experiences | sort: 'enddate') | reverse %}
         {% for project in sorted %}
         {% if project.type == "school-main" %}

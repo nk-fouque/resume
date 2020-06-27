@@ -1,6 +1,6 @@
-<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center align-items-center" id="experience">
     <div class="w-100">
-        <h2 class="mb-5">Work Experience</h2>
+        <h2 class="mb-3">Work Experience</h2>
         {% assign sorted = (site.experiences | sort: 'enddate') | reverse %}
         {% for job in sorted %}
         {% if job.type == "job-main" %}
