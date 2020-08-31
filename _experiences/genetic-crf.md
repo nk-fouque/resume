@@ -3,7 +3,7 @@ type: school-main
 name: "Spoken Language Understanding : slot tagging project"
 context: 4th-Year NLP Project
 startdate: 2020-02-13
-enddate: 2020-05-7
+enddate: 2020-05-07
 repo: https://github.com/nk-fouque/genetic-meta-crf
 repo-icon: fa-github
 concepts:

@@ -1,5 +1,5 @@
 ---
-type: school-main
+type: school-more
 name: Geolocalized Air-Quality sensor
 context: 4th-Year IOT Option
 startdate: 2019-10-01

@@ -1,5 +1,5 @@
 ---
-type: job-main
+type: job-more
 name: Production Intern
 company: Digby
 companylink: http://www.digby-sense.com/en/home-2/

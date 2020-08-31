@@ -9,19 +9,18 @@
         {% endif %}
         {% endfor %}
 
-        <!--<div class="collapse multi-collapse-read-more-work">-->
-
-        <!--    {% for job in sorted %}-->
-        <!--    {% if job.type == "job-more" %}-->
-        <!--    {% include project.html %}-->
-        <!--    <hr>-->
-        <!--    {% endif %}-->
-        <!--    {% endfor %}-->
-        <!--</div>-->
-        <!--<div class="d-none d-md-block text-center">-->
-        <!--    <button class="btn-read-more btn-lg " data-toggle="collapse"-->
-        <!--            data-target=".multi-collapse-read-more-work" aria-expanded="false">-->
-        <!--    </button>-->
-        <!--</div>-->
+        <div class="d-none d-md-block text-center">
+            <button class="btn-read-more btn-lg projects " data-toggle="collapse"
+                    data-target=".multi-collapse-read-more-work" aria-expanded="false">
+            </button>
+        </div>
+        <div class="collapse multi-collapse-read-more-work">
+            {% for project in sorted %}
+            {% if project.type == "job-more" %}
+            {% include project.html %}
+            <hr>
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </section>
