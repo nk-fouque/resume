@@ -4,7 +4,7 @@
         <ul class="fa-ul mb-0">
             {% assign sorted = site.data.achievements |sort: 'year' |reverse %}
             {% for achievement in sorted %}
-            <li>
+            <li class="lead">
                 <i class="fa-li {{achievement.icon}} text-warning"></i>
                 {{achievement.year}} - {{achievement.name}}
             </li>
