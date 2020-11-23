@@ -1,0 +1,10 @@
+<div class="resume-content card control-card" role="button"
+     data-toggle="collapse" data-target="#{{activity.control}}" aria-expanded="false">
+    <h3 class="mb-0">{{activity.name}}
+        <img src="{{site.baseurl}}/{{activity.logo}}" width="100"/>
+    </h3>
+    <div class="subheading mb-3">{{activity.description}}</div>
+    {% for title in activity.titles %}
+    <div>{{title.name}}</div>
+    {% endfor %}
+</div>
