@@ -62,6 +62,27 @@ section.resume-section {
 {
   content:'Hide' ;
 }
+
+.btn-read-more[aria-expanded="false"].read:before
+{
+  content:'Read More' ;
+}
+
+.btn-read-more[aria-expanded="true"].read:before
+{
+  content:'Read Less' ;
+}
+
+.card.control-card{
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.card.control-card:hover
+{
+  background: lightblue;
+}
+
 .flag
 {
   border: 1px solid black;

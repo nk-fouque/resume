@@ -948,7 +948,8 @@ The Goal was to use Infrared line detectors, an Ultrasound ditance detector and 
         <h2 class="mb-4">Extracurricular Activities</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
+            <div class="resume-content card control-card" role="button"
+                 data-toggle="collapse" data-target="#insakura" aria-expanded="false">
                 <h3 class="mb-0">Insakura
                     <img src="/resume/assets/img/insakura.png" width="100"/>
                 </h3>
@@ -956,27 +957,87 @@ The Goal was to use Infrared line detectors, an Ultrasound ditance detector and 
                 <div>2018-2020 - Co-President</div>
                 <div>Co-Founder in 2018</div>
             </div>
-            <div class="resume-content">
+            <div class="resume-content card control-card" role="button"
+                 data-toggle="collapse" data-target="#megaphone" aria-expanded="false">
                 <h3 class="mb-0">Le Mégaphone
-                    <a href="http://lemegaphone.asso.insa-rennes.fr/">
-                        <img src="/resume/assets/img/megaphone.png" width="100"/>
-                    </a>
+                    <img src="/resume/assets/img/megaphone.png" width="100"/>
                 </h3>
                 <div class="subheading mb-3">School Webradio</div>
                 <div>2018 - Hardware Manager</div>
                 <div>Field Reporter & Audio Editor since 2016</div>
+                <div class="btn" data-toggle="collapse" data-target="#megaphone" aria-expanded="false"></div>
             </div>
-            <div class="resume-content">
+            <div class="resume-content card control-card" role="button"
+                 data-toggle="collapse" data-target="#fog" aria-expanded="false">
                 <h3 class="mb-0">Festival de l'Œil Glauque
-                    <a href="https://oeilglauque.fr/">
-                        <img src="/resume/assets/img/FOG.png" width="100"/>
-                    </a>
+                    <img src="/resume/assets/img/FOG.png" width="100"/>
                 </h3>
                 <div class="subheading mb-3">Tabletop Games & RPG Festival</div>
                 <div>2017 Edition - Communication vice-manager</div>
                 <div>Volunteer for every Edition since 2016</div>
             </div>
         </div>
+
+        <div id="accordion">
+            <div id="insakura" class="collapse" data-parent="#accordion">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h2 class="mb-0">Insakura</h2>
+                        <div class="subheading mb-3">Japanese Culture Association</div>
+                        <div>2018-2020 - Co-President</div>
+                        <div>Co-Founder in 2018</div>
+                        <br>
+                        <p class="mb-0">
+                            Details Here
+                        </p>
+                    </div>
+                    <div class="text-md-right">
+                        <img src="/resume/assets/img/insakura.png" height="200h"/>
+                    </div>
+                </div>
+            </div>
+            <div id="megaphone" class="collapse" data-parent="#accordion">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h2 class="mb-0">Le Mégaphone</h2>
+                        <div class="subheading mb-3">School Webradio</div>
+                        <div>2018 - Hardware Manager</div>
+                        <div>Field Reporter & Audio Editor since 2016</div>
+                        <br>
+                        <p>
+                            Details here
+                        </p>
+                    </div>
+                    <div class="text-md-right">
+                        <a href="http://lemegaphone.asso.insa-rennes.fr/">
+                            <img src="/resume/assets/img/megaphone.png" height="200h"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="fog" class="collapse" data-parent="#accordion">
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h2 class="mb-0">Festival de l'Œil Glauque</h2>
+                    <div class="subheading mb-3">Tabletop Games & RPG Festival</div>
+                    <div>2017 Edition - Communication vice-manager</div>
+                    <div>Volunteer for every Edition since 2016</div>
+                    <br>
+                    <p>
+                        Details Here
+                    </p>
+                </div>
+                <div class="text-md-right">
+                    <a href="https://oeilglauque.fr/">
+                        <img src="/resume/assets/img/FOG.png" height="200h"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
 
         <div>
             <h2 class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">Hobbies</h2>
