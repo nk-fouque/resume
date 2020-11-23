@@ -12,7 +12,11 @@
             </p>
         </div>
         <div class="text-md-right">
-            <a href="{{activity.link}}">
+            <a
+                {%if activity.link != ""%}
+                href="{{activity.link}}"
+                {%endif%}
+            >
                 <img src="{{site.baseurl}}/{{activity.logo}}" height="200h"/>
             </a>
         </div>
