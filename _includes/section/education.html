@@ -1,96 +1,13 @@
-<section class="resume-section p-3 p-lg-5 d-flex align-items-center " id="education">
-    <div>
-        <h1 class="mb-3">Education</h1>
+<div class="w-100">
+    <h1 class="mb-3">Education</h1>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
-            <div class="resume-content">
-
-                <h2>Engineering student at
-                    <a href="https://www.insa-rennes.fr/">
-                        <img src="{{site.baseurl}}/assets/img/Logo_INSARennes-developpe-quadri-rvb.png" class="mb-2"
-                             height="50"/>
-                    </a></h2>
-                <h3 class="mb">Engineering Diploma in Computer Science</h3>
-                <p>
-                    In France, engineering schools are a 3 year cursus you join after 2 years of preparatory cycle.
-                    Some schools like INSA Rennes, have their own internal preparatory cycle that you can enroll in to
-                    get better prepared for the specific things you do in that school; that's what I did.
-                </p>
-                <h4 class="subheading mb-1"> Notable courses </h4>
-                <p class="lead">
-                    General curriculum : <span class="badge badge-pill badge-primary">Software Engineering</span> <span
-                        class="badge badge-pill badge-primary">Machine Learning</span> <span
-                        class="badge badge-pill badge-primary">Data Mining</span>
-                    <br>
-                    Data Science Option : <span
-                        class="badge badge-pill badge-primary">Natural Language Processing</span> <span
-                        class="badge badge-pill badge-primary">Cloud Computing</span> <span
-                        class="badge badge-pill badge-primary">Statistics</span>
-                    <br>
-                    Other options : <span class="badge badge-pill badge-primary">Artificial Intelligence</span> <span
-                        class="badge badge-pill badge-primary">Internet Of Things</span> <span
-                        class="badge badge-pill badge-primary">Robotics</span>
-                </p>
-                <h4 class="subheading mb-1">Misc. Info</h4>
-                <p>
-                    "FIRe" International Cursus : Usual courses taught in small groups with 50% foreign students,
-                    attended during the preparatory cycle.
-                </p>
-            </div>
-            <div class="resume-date text-md-right">
-                <span class="text-primary">September 2016 - present</span>
-            </div>
-
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
-            <div class="resume-content">
-
-                <h2 class="mb"> Master's degree student at
-                    <a href="https://www.abo.fi/en/">
-                        <img src="{{site.baseurl}}/assets/img/AboAkademiUniversity.png" class="mb-2"
-                             height="50"/>
-                    </a></h2>
-                <h3 class="mb"> Master's degree in Information Technology</h3>
-                <h4 class="subheading mb-1"> What's a double degree ? </h4>
-                <p> My second school has acknowledged my first years of study as equivalent to their prerequisites, and
-                    by spending some time completing their formation I cann qualify for their diploma in addition to
-                    mine.
-                    <br>
-                    Some double degrees require a longer time than a regular diploma but mine doesn't.
-                </p>
-                <h4 class="subheading mb-1"> Summary of courses</h4>
-                <p class="lead">
-                    <span class="badge badge-pill badge-primary">Data Science</span> <span
-                        class="badge badge-pill badge-primary">Software Engineering</span> <span
-                        class="badge badge-pill badge-primary">Research</span>
-                </p>
-
-            </div>
-            <div class="resume-date text-md-right">
-                <span class="text-primary">September 2020 - June 2021</span>
-            </div>
-
-        </div>
-
-        <div class="collapse multi-collapse-read-more-work">
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                    <h3 class="mb-2">High School François 1er, Le Havre, France</h3>
-                    <div class="subheading mb-1">Baccalauréat Scientifique</div>
-                    <p>Physics & Chemistry Specialization</p>
-                    <p>Optional additional Physics & Chemistry courses in english</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">September 2013 - June 2016</span>
-                </div>
-            </div>
-        </div>
-        <div class="d-none d-md-block text-center">
-            <button class="btn-read-more btn-lg highschool" data-toggle="collapse"
-                    data-target=".multi-collapse-read-more-work" aria-expanded="false">
-            </button>
-        </div>
-
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+        {% include hard-html/insa.html %}
     </div>
-</section>
+
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+        {% include hard-html/abo.html %}
+    </div>
+
+    {% include hard-html/highschool.html %}
+</div>
