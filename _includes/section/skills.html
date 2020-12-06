@@ -5,23 +5,8 @@
         <div class="resume-item d-flex flex-column flex-md-row mb-2">
             <div class="resume-content col-6">
                 <h3>Technical Skills</h3>
-                {% for category in site.data.skills %}
-                <div class="subheading mb-1">{{category.name}}</div>
-                <ul class="list-inline dev-icons">
-                    {% for skill in category.content %}
-                    {% if skill.icon == 'fontawesome' %}
-                    <li class="list-inline-item">
-                        <i class="{{skill.class}}"></i>
-                    </li>
-                    {% endif %}
-                    {% if skill.icon == 'img' %}
-                    <img src='{{site.baseurl}}/assets/img/logos/{{skill.grey}}'
-                         onmouseover="this.src='{{site.baseurl}}/assets/img/logos/{{skill.color}}';"
-                         onmouseout="this.src='{{site.baseurl}}/assets/img/logos/{{skill.grey}}';"
-                         width="{{skill.size}}"/>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
+                {% for category in site.data.technical-skills %}
+                {% include skill-category.html %}
                 {% endfor %}
             </div>
             <div class="resume-content col-6">
