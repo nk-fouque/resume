@@ -1,14 +1,12 @@
-<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="achievements">
-    <div class="w-100">
-        <h2 class="mb-5">Achievements</h2>
-        <ul class="fa-ul mb-0">
-            {% assign sorted = site.data.achievements |sort: 'year' |reverse %}
-            {% for achievement in sorted %}
-            <li class="lead">
-                <i class="fa-li {{achievement.icon}} text-warning"></i>
-                {{achievement.year}} - {{achievement.name}}
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</section>
+<div class="w-100">
+    <h2 class="mb-5">Achievements</h2>
+    <ul class="fa-ul mb-0">
+        {% assign sorted = site.data.achievements |sort: 'year' |reverse %}
+        {% for achievement in sorted %}
+        <li class="lead">
+            <i class="fa-li {{achievement.icon}} text-warning"></i>
+            {{achievement.year}} - {{achievement.name}}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
