@@ -1,0 +1,22 @@
+{% for user in site.about %}
+<div class="w-100">
+    <h1 class="mb-0">{{user.firstname}}
+        <span class="text-primary">{{user.lastname}}</span>
+    </h1>
+    <div class="subheading mb-5">
+        <i class="far fa-envelope"></i>
+        <a href="mailto:{{user.mail}}">Contact Me</a>
+    </div>
+    <span class="md-lead mb-3">
+        {{user.content}}
+    </span>
+    <div class="social-icons">
+        {%for social in user.socials%}
+            <a href="{{social.link}}">
+                <i class="{{social.icon}}"></i>
+            </a>
+        {%endfor%}
+    </div>
+
+</div>
+{% endfor %}

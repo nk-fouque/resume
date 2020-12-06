@@ -28,3 +28,6 @@ a {
   color: darken($primary,15%)
 }
 
+span.md-lead p{
+  @extend p.lead
+}
