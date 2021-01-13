@@ -13,9 +13,9 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 # Site settings
-name: "Nick's Rants"
-title: "Nick's Rants"
-description: "My interactive resume"
+name: "Digital Resume"
+title: "Digital Resume"
+description: "Nick's interactive resume"
 logo: 'assets/images/logo.png'
 favicon: 'assets/img/profile.png'
 baseurl: '/resume'

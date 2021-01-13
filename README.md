@@ -7,22 +7,20 @@ permalink: /about/
 
 This project has been originally developed as a mean to :
 - Learn to use github-pages
-- Learn to develop websites using bootstrap and HTML
+- Learn to develop websites using Bootstrap and HTML
 - Serve as my CV and showcase my projects
 
 ## Development
 
-I'm open to any type of suggestions !
+I've loved Jekyll since the moment I discovered it, I'm happy to be able to put out some complex pages without backend  
+I'm always adding new content to this template because I want to see how far I can take it  
+I'm also trying to always use more Bootstrap functions.
 
 ### Current focus
 
-- Finish migrating my old site's content to data files (So that if someone wants to use it as a template they don't have to look into the layouts)
-- Improve the blog's aesthetics
-- Find interesting features for the blog
-
-### Future objectives
-
-- Find something to talk about in the blog
+- Finish migrating content from html files to data files 
+(So that if someone wants to use it as a Jekyll template they don't have to look into the layouts)
+- New content to get to know me, especially content not about IT
 
 # Credits
 
@@ -58,7 +56,7 @@ The title of a commit follows this pattern : \<type>(\<scope>): \<subject>
 - style: CSS or layout modifications or debug
 - serve: Built the site using serve command, this type of commit doesn't need a subject, normally this should only make modifications in ```docs``` 
 
-## Scope
+## Scopes
 - General
 - Jekyll
 - About
