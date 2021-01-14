@@ -1,0 +1,24 @@
+<div id="{{activity.control}}" class="collapse" data-parent="#accordion">
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+            <h2 class="mb-0">{{activity.name}}</h2>
+            <div class="subheading mb-3">{{activity.description}}</div>
+            {% for title in activity.titles %}
+            <div>{{title.name}}</div>
+            {% endfor %}
+            <br>
+            <p class="mb-0">
+                {{activity.content}}
+            </p>
+        </div>
+        <div class="text-md-right">
+            <a
+                {%if activity.link != ""%}
+                href="{{activity.link}}"
+                {%endif%}
+            >
+                <img src="{{site.baseurl}}/{{activity.logo}}" height="200h"/>
+            </a>
+        </div>
+    </div>
+</div>
