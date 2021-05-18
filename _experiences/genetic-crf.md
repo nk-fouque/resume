@@ -1,5 +1,5 @@
 ---
-type: school-main
+type: school-more
 name: "Spoken Language Understanding : slot tagging project"
 context: 4th-Year NLP Project
 startdate: 2020-02-13
