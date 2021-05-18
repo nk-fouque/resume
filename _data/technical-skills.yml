@@ -34,9 +34,9 @@
       grey: cpp-greyscale.svg
       color: cpp-color.svg
       size: 40
-- name: Cloud Computing Technologies
+- name: Cloud Computing & Databases
   content:
-    - name: k8s
+    - name: kubernetes
       icon: img
       grey: k8s_grey.svg
       color: k8s_color.svg
@@ -47,6 +47,16 @@
     - name: aws
       icon: fontawesome
       class: fab fa-aws
+    - name: mongodb
+      icon: img
+      grey: mongodb.svg
+      color: mongodb-blue.svg
+      size: 50
+    - name: sql
+      icon: img
+      grey: sql-server.svg
+      color: sql-server-blue.svg
+      size: 50
 - name: Most used Tools
   content:
     - name: jetbrains
@@ -54,9 +64,9 @@
       grey: jetbrains-greyscale.svg
       color: jetbrains.svg
       size: 50
-    - name: atom
+    - name: github
       icon: fontawesome
-      class: fas fa-atom
+      class: fab fa-github
     - name: slack
       icon: fontawesome
       class: fab fa-slack

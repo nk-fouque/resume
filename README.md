@@ -38,7 +38,10 @@ Most of these logos have been edited to have a grey/blue version to coincide wit
 - [C++ Logo](https://freebiesupply.com/logos/c-logo/)  
 - [Kubernetes Logo](https://www.vectorlogo.zone/logos/kubernetes/index.html)  
 - [Jetbrains Logo](https://www.jetbrains.com/company/brand/logos/)  
-- [Adobe Icons by Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)  
+- [Adobe Icons by Freepik](https://www.flaticon.com/authors/freepik)
+- [SQL Logo](https://www.flaticon.com/authors/pixel-perfect)
+- [MongoDB Logo](https://github.com/konpa)
+- 
 ... Other logos are most likely part of the fontawesome content included with the Start Bootstrap template
 
 # Commits
