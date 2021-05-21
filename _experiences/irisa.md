@@ -21,4 +21,4 @@ Implement an algorithm for Similarity Search in RDF Graphs <br>Work based on an 
 Publication, working with the author to bring the algorithm as a Java library, using Apache Jena
 for RDF Manipulation.
 
-[Demonstration publication presented at EGC2020 in Brussels](https://editions-rnti.fr/?inprocid=1002617)
+[Demonstration publication presented at EGC2020 in Brussels](https://hal.inria.fr/hal-03156022/)
