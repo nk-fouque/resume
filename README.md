@@ -5,9 +5,10 @@ permalink: /about/
 
 # Welcome
 
-This project has been originally developed as a mean to :
-- Learn to use github-pages
-- Learn to develop websites using Bootstrap and HTML
+This project is really a playground with no pretentions
+It has been originally developed as a mean to :
+- Learn to use github-pages and Jekyll
+- Learn basic frontend with HTML, CSS, Bootstrap
 - Serve as my CV and showcase my projects
 
 ## Development
@@ -39,7 +40,7 @@ Most of these logos have been edited to have a grey/blue version to coincide wit
 - [Kubernetes Logo](https://www.vectorlogo.zone/logos/kubernetes/index.html)  
 - [Jetbrains Logo](https://www.jetbrains.com/company/brand/logos/)  
 - [Adobe Icons by Freepik](https://www.flaticon.com/authors/freepik)
-- [SQL Logo](https://www.flaticon.com/authors/pixel-perfect)
+- [SQL Logo by Pixel Perfect](https://www.flaticon.com/authors/pixel-perfect)
 - [MongoDB Logo](https://github.com/konpa)
 - 
 ... Other logos are most likely part of the fontawesome content included with the Start Bootstrap template
