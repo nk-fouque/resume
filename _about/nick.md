@@ -14,9 +14,9 @@ socials:
     - name: github
       link: https://github.com/nk-fouque
       icon: "fab fa-github"
-    - name: blog
-      link: /blog
-      icon: "fas fa-pen-nib"
+#    - name: blog
+#      link: /blog
+#      icon: "fas fa-pen-nib"
 ---
 I am a French engineering student studying computer science.  
 <br>
