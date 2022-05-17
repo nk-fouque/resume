@@ -1,5 +1,5 @@
 ---
-type: job-main
+type: job-more
 title: Research Intern
 company: IRISA
 companylink: https://www.irisa.fr/en

@@ -25,10 +25,10 @@
     <div class="resume-date text-md-right">
         <span class="text-primary">
             {{job.startdate | date: "%B %Y"}} -
-            {% if job.enddate %}
+            {% if job.enddate != "none" %}
             {{job.enddate | date: "%B %Y"}}
             {% else %}
-            present
+            Present
             {%endif%}
         </span>
     </div>

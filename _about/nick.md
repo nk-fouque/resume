@@ -2,7 +2,7 @@
 firstname: Nicolas
 lastname: Fouqué
 nickname: Nick
-mail: fouquen@outook.fr
+mail: nfouque@irisa.fr
 
 socials:
     - name: linkedin
@@ -18,12 +18,8 @@ socials:
 #      link: /blog
 #      icon: "fas fa-pen-nib"
 ---
-I am a French engineering student studying computer science.  
+I am a French computer science Engineer.  
 <br>
-I love Data Science, and being the guy who gives meaning to the numbers.  
-  
-**Graduating in 2021, actively looking for a job after that, open to relocation all around the world**  
-
-I'd like to work in **Data Visualization**, ideally between the algorithm and the analysis, where I can
-apply my skills in **Software Engineering** to develop tools for visualization  
-I am also well versed in **Machine Learning** and **Cloud computing**.
+I love Data Science, and being the guy who gives meaning to the numbers.
+<br>
+Currently employed at [IRISA](https://www.irisa.fr/en) team [LinkMedia](https://www.irisa.fr/en/teams/linkmedia).
