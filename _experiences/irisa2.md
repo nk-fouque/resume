@@ -11,6 +11,10 @@ concepts:
   color: primary
 - name: Machine Learning
   color: primary
+- name: HuggingFace Transformers
+  color: secondary
+- name: Amazon Web Services
+  color: secondary
 
 ---
 Research Engineer working in [LinkMedia](https://www.irisa.fr/en/teams/linkmedia) team at [IRISA](https://www.irisa.fr/en) 
