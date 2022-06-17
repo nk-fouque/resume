@@ -2,13 +2,13 @@
     <h2 class="mb-5">Skills</h2>
 
     <div class="resume-item d-flex flex-column flex-md-row mb-2">
-        <div class="resume-content col-6">
+        <div class="resume-content col-md">
             <h3>Technical Skills</h3>
             {% for category in site.data.technical-skills %}
             {% include skill-category.html %}
             {% endfor %}
         </div>
-        <div class="resume-content col-6">
+        <div class="resume-content col-md">
             <h3>Other Skills</h3>
             {% for category in site.data.other-skills %}
             {% include skill-category.html %}
