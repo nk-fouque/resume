@@ -29,5 +29,5 @@ a {
 }
 
 span.md-lead p{
-  @extend p.lead
+  @extend p, .lead
 }
