@@ -1,16 +1,19 @@
 - name: Main Programming Languages
   content:
-    - name: java
-      icon: fontawesome
-      class: fab fa-java
     - name: python
       icon: fontawesome
       class: fab fa-python
+    - name: java
+      icon: fontawesome
+      class: fab fa-java
     - name: go
       icon: img
       grey: Go-Logo_Grey.svg
       color: Go-Logo_Blue.svg
       size: 65
+    - name: react-native
+      icon: fontawesome
+      class: fab fa-react
 - name: Other Programming Languages
   content:
     - name: bash
@@ -36,14 +39,6 @@
       size: 40
 - name: Cloud Computing & Databases
   content:
-    - name: kubernetes
-      icon: img
-      grey: k8s_grey.svg
-      color: k8s_color.svg
-      size: 50
-    - name: docker
-      icon: fontawesome
-      class: fab fa-docker
     - name: aws
       icon: fontawesome
       class: fab fa-aws
@@ -57,6 +52,14 @@
       grey: sql-server.svg
       color: sql-server-blue.svg
       size: 50
+    - name: kubernetes
+      icon: img
+      grey: k8s_grey.svg
+      color: k8s_color.svg
+      size: 50
+    - name: docker
+      icon: fontawesome
+      class: fab fa-docker
 - name: Most used Tools
   content:
     - name: jetbrains
@@ -67,12 +70,17 @@
     - name: github
       icon: fontawesome
       class: fab fa-github
+    - name: notion
+      icon: img
+      grey: notion-grey.svg
+      color: notion-blue.svg
+      size: 50
     - name: slack
       icon: fontawesome
       class: fab fa-slack
-    - name: trello
-      icon: fontawesome
-      class: fab fa-trello
     - name: gdrive
       icon: fontawesome
       class: fab fa-google-drive
+    - name: trello
+      icon: fontawesome
+      class: fab fa-trello

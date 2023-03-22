@@ -9,6 +9,8 @@ enddate: 2022-05-05
 concepts:
 - name: Semantic Web
   color: primary
+- name: Knowledge Engineering
+  color: primary
 - name: TopQuadrant
   color: secondary
 - name: SPARQL Web Pages

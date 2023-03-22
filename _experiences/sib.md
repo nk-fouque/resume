@@ -1,5 +1,5 @@
 ---
-type: job-main
+type: job-more
 title: Summer Intern
 company: SIB
 companylink: https://www.sib.fr/
