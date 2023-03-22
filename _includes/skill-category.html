@@ -2,7 +2,9 @@
 <ul class="list-inline dev-icons">
     {% for skill in category.content %}
     {% if skill.icon == 'fontawesome' %}
-    <li class="list-inline-item">
+    <li class="list-inline-item"
+        data-toggle="popover" data-placement="right"
+        data-content="{{skill.name}}">
         <i class="{{skill.class}}"></i>
     </li>
     {% endif %}
@@ -10,7 +12,9 @@
     <img src='{{site.baseurl}}/assets/img/logos/{{skill.grey}}'
          onmouseover="this.src='{{site.baseurl}}/assets/img/logos/{{skill.color}}';"
          onmouseout="this.src='{{site.baseurl}}/assets/img/logos/{{skill.grey}}';"
-         width="{{skill.size}}"/>
+         width="{{skill.size}}"
+         data-toggle="popover" data-placement="right"
+         data-content="{{skill.name}}"/>
     {% endif %}
     {% endfor %}
 </ul>

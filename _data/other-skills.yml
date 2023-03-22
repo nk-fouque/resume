@@ -1,16 +1,16 @@
 - name: Adobe Creative Suite
   content:
-    - name: photoshop
+    - name: Photoshop
       icon: img
       grey: photoshop.svg
       color: photoshop-blue.svg
       size: 50
-    - name: premiere
+    - name: Premiere Pro
       icon: img
       grey: premier.svg
       color: premier-blue.svg
       size: 50
-    - name: audition
+    - name: Audition
       icon: img
       grey: audition.svg
       color: audition-blue.svg
