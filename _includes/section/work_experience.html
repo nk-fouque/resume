@@ -14,9 +14,9 @@
         </button>
     </div>
     <div class="collapse multi-collapse-read-more-work">
-        {% for project in sorted %}
-        {% if project.type == "job-more" %}
-        {% include project.html %}
+        {% for job in sorted %}
+        {% if job.type == "job-more" %}
+        {% include job.html %}
         <hr>
         {% endif %}
         {% endfor %}

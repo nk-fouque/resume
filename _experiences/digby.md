@@ -1,6 +1,6 @@
 ---
 type: job-more
-name: Production Intern
+title: Production Intern
 company: Digby
 companylink: http://www.digby-sense.com/en/home-2/
 startdate: 2017-07-10
