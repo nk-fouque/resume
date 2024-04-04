@@ -1,5 +1,5 @@
 ---
-type: job-main
+type: job-more
 title: Semantic Web Engineer
 company: Viasema
 companylink: http://www.viasema.fr/

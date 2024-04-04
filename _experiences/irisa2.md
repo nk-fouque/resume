@@ -4,7 +4,7 @@ title: Research Engineer
 company: CNRS
 companylink: https://www.cnrs.fr/en
 startdate: 2022-05-16
-enddate: none
+enddate: 2023-11-16
 
 concepts:
 - name: Natural Language Processing
