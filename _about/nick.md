@@ -8,9 +8,9 @@ socials:
     - name: linkedin
       link: https://www.linkedin.com/in/nicolaskf-fouqué
       icon: "fab fa-linkedin-in"
-    - name: twitter
-      link: https://twitter.com/nkfouque
-      icon: "fab fa-twitter"
+#    - name: twitter
+#      link: https://twitter.com/nkfouque
+#      icon: "fab fa-twitter"
     - name: github
       link: https://github.com/nk-fouque
       icon: "fab fa-github"
