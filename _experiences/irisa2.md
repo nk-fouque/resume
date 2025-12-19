@@ -27,5 +27,3 @@ on a computational Journalism project with [Le Télégramme](https://www.leteleg
 Conception of predictive models for online news articles audience metrics, integration into new tools for the redaction of news articles based on Explainable AI. 
 
 Representative of temp employees in INRIA's center committee.  
-Part-time teaching duties at [INSA Rennes](https://www.insa-rennes.fr/) in the preparatory cycle. 
-
