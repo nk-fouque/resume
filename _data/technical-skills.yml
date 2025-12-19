@@ -3,9 +3,6 @@
     - name: Python
       icon: fontawesome
       class: fab fa-python
-    - name: Java
-      icon: fontawesome
-      class: fab fa-java
     - name: Go
       icon: img
       grey: Go-Logo_Grey.svg
@@ -14,8 +11,14 @@
     - name: React Native
       icon: fontawesome
       class: fab fa-react
+    - name: JavaScript
+      icon: fontawesome
+      class: fab fa-js
 - name: Other Programming Languages
   content:
+    - name: Java
+      icon: fontawesome
+      class: fab fa-java
     - name: Bash
       icon: img
       grey: bash-greyscale.svg
@@ -26,9 +29,6 @@
       grey: ruby-greyscale.svg
       color: ruby-color.svg
       size: 40
-    - name: JavaScript
-      icon: fontawesome
-      class: fab fa-js
     - name: Angular
       icon: fontawesome
       class: fab fa-angular
@@ -70,6 +70,11 @@
     - name: Github
       icon: fontawesome
       class: fab fa-github
+    - name: Obsidian
+      icon: img
+      grey: obsidian_logo_grey.svg
+      color: obsidian_logo.svg
+      size: 50
     - name: Notion
       icon: img
       grey: notion-grey.svg
